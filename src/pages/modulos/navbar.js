@@ -1,4 +1,4 @@
-function Navbar(params){
-    return<div>Menu</div>
+function Navbar() {
+    return<div>Menu FW</div>    
 }
 export default Navbar;
