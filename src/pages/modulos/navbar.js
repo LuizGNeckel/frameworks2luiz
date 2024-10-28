@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import styles from "@/styles/navbar.module.css"
+import styles from "@/styles/Navbar.module.css"
 export default function Menu() {
   return (
     <Container>
@@ -10,6 +10,7 @@ export default function Menu() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/produtos">Produtos</Nav.Link>
+            <Nav.Link href="/promessa">Promessa</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
